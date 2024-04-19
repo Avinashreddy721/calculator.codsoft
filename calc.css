@@ -1,0 +1,60 @@
+html{
+    background-color: burlywood;
+}
+
+h1{
+  margin-top: 0px;
+}
+
+.calculator {
+    width: 300px;
+    margin: 120px auto;
+    padding: 20px;
+    border: 12px solid #ccc;
+    text-align: center;
+    background-color: #aa80ff;
+}
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 4px;
+    font-size: 24px;
+   
+
+  }
+  
+  button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+  }
+
+  button:hover{
+    color: bisque;
+    cursor: pointer;
+  }
+
+  
+  @media screen and (max-width:450px) {
+    .calculator {
+      width: 72vmin;
+      max-width: 300px;
+      display: block;
+      margin-top: 8rem;
+      justify-content: baseline;
+    }
+    
+    input[type="text"] {
+      font-size: 18px;
+    }
+  
+    button {
+      width: 50px;
+      height: 50px;
+      font-size: 18px;
+    }
+  }
+  
